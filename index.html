@@ -1,35 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <title>Ice Cream</title>
 </head>
+
 <body>
-    <header>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <img src="" alt="Logo heladería" width="50px">
+                <span class="navbar_name">ICECREAM</span>
+            </div>
+            <ul class="navbar_menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">How it's made?</a></li>
+                <li><a href="">Our products</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+            <button class="btn-light navbar_btn">
+                Buy now
+                <img src="" alt="" width="5px">
+            </button>
+        </nav>
+
+        <section class="header_content">
+            <div class="main">
+                <article class="main_slogan">
+                    <h1 class="title slogan_tittle"> ICE CREAM <br>
+                        MADE WITH <br>
+                        <span class="title section-tittle">PASSION</span>
+                    </h1>
+                    <div class="slogan_buttons">
+                        <a href=""><button class="btn-dark">Products</button></a>
+                        <a href=""><button class="btn-light">How it's made?</button></a>
+                    </div>
+                </article>
+                <article class="main_info">
+                    <img src="" alt="Jarra de leche">
+                    <div>
+                        <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quasi
+                            aperiam explicabo accusamus perferendis commodi unde. Quasi soluta dignissimos unde
+                            blanditiis error minus non ipsam, et dolorem fugit earum! Est!</p>
+                        <button class="btn-light btn-arrow" width="26px"> <svg class="icon icon-Flecha_Roja" width="26">
+                                <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+                            </svg></button>
+                    </div>
+                </article>
+            </div>
+            <aside class="sidebar">
+                <div>
+                    <svg width="30" height="30" class="sidebar_circle">
+                        <circle r="30" fill="white" />
+                    </svg>
+                    <span class="title sidebar_number">16</span>
+                    <p class="info">cafes</p>
+                </div>
+                <div>
+                    <span class="title sidebar_number">23</span>
+                    <p class="info">food trucks</p>
+                </div>
+            </aside>
+        </section>
+
+    </header>
+
+    <section class="products">
+        <span class="section-subtitle">100% NATURAL</span>
+        <h2 class="section-tittle">PRODUCTS</h2>
+        <ul class="grid">
+            <li class="product">
+                <h3 class="product_tittle"><span class="tittle">ICE CREAM</span></h3>
+                <p class="info product_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere
+                    beatae esse consectetur iusto consequuntur, praesentium maxime alias earum! Expedita, assumenda eum
+                    nobis voluptate tempora necessitatibus voluptatem recusandae numquam vel.</p>
+                <button class="btn-light btn-arrow"> <svg class="icon icon-Flecha_Roja">
+                        <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+                    </svg></button>
+            </li>
+            <li class="product">
+                <h3 class="product_tittle"><span class="tittle">ICE COFFEE</span></h3>
+                <p class="info product_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere
+                    beatae esse consectetur iusto consequuntur, praesentium maxime alias earum! Expedita, assumenda eum
+                    nobis voluptate tempora necessitatibus voluptatem recusandae numquam vel.</p>
+                <button class="btn-light btn-arrow"> <svg class="icon icon-Flecha_Roja">
+                        <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+                    </svg></button>
+            </li>
+            <li class="product">
+                <h3 class="product_tittle"><span class="tittle">MILKSHAKES</span></h3>
+                <p class="info product_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere
+                    beatae esse consectetur iusto consequuntur, praesentium maxime alias earum! Expedita, assumenda eum
+                    nobis voluptate tempora necessitatibus voluptatem recusandae numquam vel.</p>
+                <button class="btn-light btn-arrow"> <svg class="icon icon-Flecha_Roja">
+                        <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+                    </svg></button>
+            </li>
+        </ul>
+    </section>
+
+    <section class="about">
+        <span class="section-subtitle">TRADITION AND LOVE</span>
+        <h2 class="section-tittle">HOW IT'S MADE?</h2>
+
         <div>
-            
-            <span>Icecream</span>
-    </div>
-    <nav>
-    <ul>
-        <li>Home</li>
-        <li>About us</li>
-        <li>How it's made?</li>
-        <li>Our products</li>
-        <li>Contact</li>
-    </ul>
-    </nav>
-    <button>Buy now</button>
-</header>
-<section class="products"></section>
-<section class="about"></section>
-<section class="advantages"></section>
-<section class="gallery"></section>
-<section class="reviews"></section>
-<section class="contact"></section>
-<footer>
-</footer>
+            <img src="" alt="Jarra de leche y foto de una vaca">
+            <div>
+                <p class="info about_info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, velit iusto
+                    expedita atque provident incidunt, voluptas dolor similique nihil facilis perspiciatis illo
+                    exercitationem tenetur quas, modi magni deserunt esse repudiandae.</p>
+                <p class="info about_info-grey"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam non
+                    tempora dolorem voluptates assumenda eligendi a libero quidem eveniet voluptatibus? Tenetur maiores
+                    qui quo nobis
+                    <br>
+                    aut et quidem veritatis ad?
+                </p>
+                <button class="btn-light navbar_btn">
+                    Read more
+                    <img src="" alt="" width="5px">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <!-- Este título debe llevar la propiedad hidden en el css, o la propiedad display:none; para que no sea visible -->
+        <h2 class="hidden_tittle">BENEFICIOS</h2>
+        <ul class="grid">
+            <li class="grid_item">
+                <article class="benefit">
+                    <span class="tittle">721</span>
+                    <p class="info benefit_info">Lo que diga ahí</p>
+                </article>
+            </li>
+            <li class="grid_item"></li>
+            <article class="benefit">
+                <span class="tittle">16kg</span>
+                <p class="info benefit_info">Lo que diga ahí</p>
+            </article>
+            </li>
+            <li class="grid_item"></li>
+            <article class="benefit">
+                <span class="tittle">84</span>
+                <p class="info benefit_info">Lo que diga ahí</p>
+            </article>
+            </li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <!-- Esta sección leer lo que dice la guía acerca del degradado de fondo y Massonry Layput Galery -->
+        <img src="" alt="gallería de fotos">
+    </section>
+
+    <!-- Esta sección esta pendiente completar el maquetado, debo consultar al mentor -->
+    <section class="reviews">
+        <ul class="reviews_grid">
+            <li class="reviews_item">
+                <article class="client">
+                    <img src="" alt="" class="client_image">
+                    <div class="client_review">
+                        <p class="info client_message"></p>
+                    </div>
+                    <p class="client_name"></p>
+                </article>
+            </li>
+            <li class="reviews_item">
+                <article class="client">
+                    <img src="" alt="" class="client_image">
+                    <div class="client_review">
+                        <p class="info client_message"></p>
+                    </div>
+                    <p class="client_name"></p>
+                </article>
+            </li>
+            <li class="reviews_item">
+                <article class="client">
+                    <img src="" alt="" class="client_image">
+                    <div class="client_review">
+                        <p class="info client_message"></p>
+                    </div>
+                    <p class="client_name"></p>
+                </article>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="contacts">
+        <!-- Este título debe llevar la propiedad hidden en el css, o la propiedad display:none; para que no sea visible -->
+        <h2 class="hidden_tittle">Contacts</h2>
+
+        <ul class="contact_grid">
+            <li class="contact_item">
+                <article class="stand">
+                    <div class="stand_type">
+                        CAFE
+                    </div>
+                    <div>
+                        <p class="stand_subtitle">Chicago</p>
+                        <p class="info stand_description">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </div>
+                    <span class="line-grey"></span>
+                    <div class="stand_calendar">
+                        <p class="stand_subtitle">Monday - Friday</p>
+                        <span class="stand_hour">06:00 AM - 10:00 PM</span>
+                    </div>
+                    <div class="stand_calendar">
+                        <p class="stand_subtitle">Saturday - Sunday</p>
+                        <span class="stand_hour">08:00 AM - 16:00 PM</span>
+                    </div>
+                    <span class="line-grey"></span>
+                    <div>
+                        <p class="info stand_contact"><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
+                        <p class="info stand_contact"><a href="mailto:noreply@envato.com">noreply@envato.com</a></p>
+                    </div>
+                </article>
+            </li>
+            <li class="contact_item">
+                <article class="stand">
+                    <div class="stand_type">
+                        FOOD TRUCK
+                    </div>
+                    <div>
+                        <p class="stand_subtitle">Los Angeles</p>
+                        <p class="info stand_description">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </div>
+                    <span class="line-grey"></span>
+                    <div class="stand_calendar">
+                        <p class="stand_subtitle">Monday - Friday</p>
+                        <span class="stand_hour">06:00 AM - 10:00 PM</span>
+                    </div>
+                    <div class="stand_calendar">
+                        <p class="stand_subtitle">Saturday - Sunday</p>
+                        <span class="stand_hour">08:00 AM - 16:00 PM</span>
+                    </div>
+                    <span class="line-grey"></span>
+                    <div>
+                        <p class="info stand_contact"><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
+                        <p class="info stand_contact"><a href="mailto:noreply@envato.com">noreply@envato.com</a></p>
+                    </div>
+                </article>
+            </li>
+            <li class="contact_item">
+                <article class="stand">
+                    <div class="stand_type">
+                        CAFE
+                    </div>
+                    <div>
+                        <p class="stand_city">New York</p>
+                        <p class="info stand_description">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                    </div>
+                    <span class="line-grey"></span>
+                    <div class="stand_calendar">
+                        <p class="stand_subtitle">Monday - Friday</p>
+                        <span class="stand_hour">06:00 AM - 10:00 PM</span>
+                    </div>
+                    <div class="stand_calendar">
+                        <p class="stand_subtitle">Saturday - Sunday</p>
+                        <span class="stand_hour">08:00 AM - 16:00 PM</span>
+                    </div>
+                    <span class="line-grey"></span>
+                    <div>
+                        <p class="info stand_contact"><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
+                        <p class="info stand_contact"><a href="mailto:noreply@envato.com">noreply@envato.com</a></p>
+                    </div>
+                </article>
+            </li>
+        </ul>
+
+        <div class="contact_buttons">
+            <buton class="btn-dark">Our Locations
+                <img src="" alt="" width="5px">
+            </buton>
+            <buton class="btn-light">Franchise
+                <img src="" alt="" width="5px">
+            </buton>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer_slogan"></div>
+            <div class="footer_social">
+                <div>
+                    <img src="" alt="ícono github" width="34px">
+                    <img src="" alt="ícono telegram" width="34px">
+                    <img src="" alt="ícono facebook" width="34px">
+                </div>
+                <p class="footer_info">Feel free to contact <span class="footer_contact"><a
+                            href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></span></p>
+            </div>
+        </div>
+        <span class="line-grey"></span>
+        <div class="footer_copyright">© 2022 - IceCream. All Rights Reserved.</div>
+    </footer>
+
 </body>
+
 </html>

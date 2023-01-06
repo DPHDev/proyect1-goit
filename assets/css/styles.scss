@@ -1,0 +1,87 @@
+@import 'colors';
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Titan One', cursive;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    border-radius: 22px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: getColor("titles");
+    fill: getColor("titles");
+    border: 0;
+
+    &:hover{
+        background-color: getColor("greyhover");
+        color: getColor("titles");
+    }
+}
+
+.btn-dark{
+    @extend .button;
+    background-color: getColor("titles");
+    color: getColor("white");
+}
+
+.btn-light{
+    @extend .button;
+    background-color: getColor("white");
+}
+
+.btn-arrow {
+    @extend.button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+    background-color: getColor("white");
+
+}
+
+.icon-Flecha_Roja {
+        width: 12px;
+        height: 12px;
+}
+
+.tittle {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-tittle{
+    @extend .tittle;
+    text-align: center;
+    font-size:58px;
+    line-height:66px;
+    letter-spacing:0.06em;
+    color: getColor("titles");
+}
+
+.section-subtitle {
+    @extend .tittle;
+    text-align: center;
+    font-size:38px;
+    line-height:34px;
+    letter-spacing:0.04em;
+    color: getColor("subtitles");
+}
+
+.navbar_name {
+    @extend .tittle;
+    font-size:25px;
+    color: getColor("titles");
+}
+
+.hidden_tittle {
+    visibility: hidden;
+}
