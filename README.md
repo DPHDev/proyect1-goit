@@ -26,5 +26,3 @@ development time: 7 days.
 Thank you very much for reading.
 
 Any suggestion or contribution will be gratefully received.
-
-Translated with www.DeepL.com/Translator (free version)
