@@ -1,19 +1,25 @@
-First GoIT group project - HTML + CSS
+First GoIT group project - HTML + CSS.
 
-Project: Icecream
+Project: Icecream.
 
 Developers in the project:
 
-Diego Villamizar
-Anthony Cordoba
-Juan Daniel Vasco
-Daniel Perdomo
-Deimer Gutierrez
-Jesus Cordero
-Cristian Medina
+Diego Villamizar.
 
-Mentor: Jorge Duque
-Team lead: Daniel Perdomo
+Anthony Cordoba.
+
+Juan Daniel Vasco.
+
+Daniel Perdomo.
+
+Deimer Gutierrez.
+
+Jesus Cordero.
+
+Cristian Medina.
+
+Mentor: Jorge Duque.
+Team lead: Daniel Perdomo.
 
 The project of this repository is a web page of an ice cream shop "Icecream" developed only with HTML and CSS, using Sass.
 
