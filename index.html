@@ -16,18 +16,18 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="section_home">
         <nav class="navbar">
             <div class="navbar_logo">
                 <img src="" alt="Logo heladería" width="50px">
                 <span class="navbar_name">ICECREAM</span>
             </div>
             <ul class="navbar_menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">How it's made?</a></li>
-                <li><a href="">Our products</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#section_home">Home</a></li>
+                <li><a href="#section_about">About us</a></li>
+                <li><a href="#section_about">How it's made?</a></li>
+                <li><a href="#section_products">Our products</a></li>
+                <li><a href="section_contact">Contact</a></li>
             </ul>
 
             <button class="btn-light navbar_btn">
@@ -44,8 +44,8 @@
                         <span class="title section-tittle">PASSION</span>
                     </h1>
                     <div class="slogan_buttons">
-                        <a href=""><button class="btn-dark">Products</button></a>
-                        <a href=""><button class="btn-light">How it's made?</button></a>
+                        <a href="section_products"><button class="btn-dark">Products</button></a>
+                        <a href="section_about"><button class="btn-light">How it's made?</button></a>
                     </div>
                 </article>
                 <article class="main_info">
@@ -54,9 +54,9 @@
                         <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quasi
                             aperiam explicabo accusamus perferendis commodi unde. Quasi soluta dignissimos unde
                             blanditiis error minus non ipsam, et dolorem fugit earum! Est!</p>
-                        <button class="btn-light btn-arrow" width="26px"> <svg class="icon icon-Flecha_Roja" width="26">
+                        <a href="section_about"><button class="btn-light btn-arrow" width="26px"> <svg class="icon icon-Flecha_Roja" width="26">
                                 <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
-                            </svg></button>
+                            </svg></button></a>
                     </div>
                 </article>
             </div>
@@ -77,7 +77,7 @@
 
     </header>
 
-    <section class="products">
+    <section class="products" id="section_products">
         <span class="section-subtitle">100% NATURAL</span>
         <h2 class="section-tittle">PRODUCTS</h2>
         <ul class="grid">
@@ -111,7 +111,7 @@
         </ul>
     </section>
 
-    <section class="about">
+    <section class="about" id="section_about">
         <span class="section-subtitle">TRADITION AND LOVE</span>
         <h2 class="section-tittle">HOW IT'S MADE?</h2>
 
@@ -199,7 +199,7 @@
 
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="section_contact">
         <!-- Este título debe llevar la propiedad hidden en el css, o la propiedad display:none; para que no sea visible -->
         <h2 class="hidden_tittle">Contacts</h2>
 
