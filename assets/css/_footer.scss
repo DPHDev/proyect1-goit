@@ -3,6 +3,7 @@
     width: 1280px;
     display: flex;
     flex-direction: column;
+    background-color: getColor("bg2");
 }
 
 .footer_content {
@@ -43,7 +44,7 @@
 .footer_social {
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
+    padding: 90px 30px;
 }
 
 .footer_network {
@@ -127,4 +128,5 @@
 
 @media only screen and (min-width: 768px) {}
 
-@media only screen and (min-width: 1280px) {}
+
+
