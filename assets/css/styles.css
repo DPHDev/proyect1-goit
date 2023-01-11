@@ -6,6 +6,267 @@
   text-decoration: none;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .reviews {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+  .reviews_grid {
+    width: 300%;
+    display: flex;
+  }
+  .reviews_item {
+    width: 100%;
+  }
+  .reviews_control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    gap: 18px;
+    height: 12px;
+    margin: 0 auto;
+  }
+  .reviews .icon-control {
+    width: 12px;
+    height: 12px;
+  }
+  .client {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  .client_image {
+    margin-bottom: 16px;
+  }
+  .client_review {
+    position: relative;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding-top: 43px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 26px;
+    text-align: center;
+  }
+  .client_message {
+    align-self: center;
+    text-align: right;
+    border-bottom: 1px solid #E1E1E1;
+    padding-left: 20px;
+    padding-right: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #000000;
+  }
+  .client .icon-cita {
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    fill: #E1E1E1;
+    top: 25px;
+    left: 30px;
+  }
+  .client_name {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 186%;
+    /* or 37px */
+    text-align: center;
+    color: #000000;
+  }
+  .client_points {
+    font-family: "Titan One";
+    font-style: normal;
+    font-size: 26px;
+    color: #D41443;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+  .reviews {
+    width: calc(100% - 148px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 30px;
+    overflow: hidden;
+  }
+  .reviews_grid {
+    width: 300%;
+    display: flex;
+  }
+  .reviews_item {
+    width: 100%;
+  }
+  .reviews_control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    gap: 18px;
+    height: 12px;
+    margin: 0 auto;
+  }
+  .reviews .icon-control {
+    width: 12px;
+    height: 12px;
+  }
+  .client {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .client_image {
+    margin-bottom: 16px;
+  }
+  .client_review {
+    position: relative;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding-top: 43px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 26px;
+    text-align: center;
+  }
+  .client_message {
+    align-self: center;
+    text-align: right;
+    border-bottom: 1px solid #E1E1E1;
+    padding-left: 20px;
+    padding-right: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 216%;
+    /* or 30px */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  .client .icon-cita {
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    fill: #E1E1E1;
+    top: 25px;
+    left: 30px;
+  }
+  .client_name {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 186%;
+    /* or 37px */
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+  .client_points {
+    font-family: "Titan One";
+    font-style: normal;
+    font-size: 26px;
+    color: #D41443;
+    margin-bottom: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews {
+    width: calc(100% - 232px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    overflow: hidden;
+    padding-top: 30px;
+  }
+  .reviews_grid {
+    display: flex;
+    width: 300%;
+  }
+  .reviews_item {
+    width: 100%;
+  }
+  .reviews_control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    gap: 18px;
+    height: 12px;
+    margin: 0 auto;
+  }
+  .reviews .icon-control {
+    width: 12px;
+    height: 12px;
+  }
+  .client {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  .client_review {
+    position: relative;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 47px 74px 39px 74px;
+    text-align: center;
+  }
+  .client_message {
+    width: 968px;
+    align-self: center;
+    text-align: right;
+    border-bottom: 1px solid #E1E1E1;
+    padding-left: 37px;
+    padding-right: 36px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    /* or 30px */
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  .client .icon-cita {
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    fill: #E1E1E1;
+    top: 30px;
+    left: 74px;
+  }
+  .client_name {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 186%;
+    /* or 37px */
+    text-align: center;
+    color: #000000;
+  }
+  .client_points {
+    font-family: "Titan One";
+    font-style: normal;
+    font-size: 26px;
+    color: #D41443;
+  }
+}
 .button, .btn-arrow, .btn-light, .btn-dark {
   display: flex;
   border-radius: 22px;
@@ -74,6 +335,11 @@
 
 .hidden_tittle {
   visibility: hidden;
+}
+
+.info {
+  font-family: "DM Sans";
+  font-style: normal;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,303 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    .reviews {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 30px;
+        overflow: hidden; 
+        
+        &_grid {
+            width: 300%;
+            display: flex;
+        }    
+        
+        &_item {
+            width: 100%;   
+        }
+    
+        &_control {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 72px;
+            gap: 18px;
+            height: 12px;
+            margin: 0 auto;
+        }
+        
+        .icon-control {
+            width: 12px;
+            height: 12px;
+        }
+    }
+    
+    .client {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+
+        &_image {     
+            margin-bottom: 16px;   
+        }
+
+    
+        &_review {        
+            position: relative;
+            width: 100%;
+            background-color: getColor('bgreviews');
+            padding-top: 43px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 26px;
+            text-align: center;
+        }
+    
+        &_message {
+            align-self: center;
+            text-align: right;
+            border-bottom: 1px solid getColor('greyreviews');
+            padding-left: 20px;
+            padding-right: 2px;
+    
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 30px;
+            color: #000000; 
+        }
+    
+        .icon-cita {
+            position: absolute;
+            width: 54px;
+            height: 40px;
+            fill: getColor('greyreviews');
+            top: 25px;
+            left: 30px;
+        }
+    
+        &_name {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 186%;
+            /* or 37px */
+            text-align: center;
+            color: #000000;
+        }
+    
+        &_points {
+            font-family: "Titan One";
+            font-style: normal;
+            font-size: 26px;
+            color: getColor('titles');
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1199px){
+
+    .reviews {
+        width: calc(100% - 148px);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 30px;
+        overflow: hidden; 
+        
+        &_grid {
+            width: 300%;
+            display: flex;
+        }    
+        
+        &_item {
+            width: 100%;
+        }
+    
+        &_control {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 72px;
+            gap: 18px;
+            height: 12px;
+            margin: 0 auto;
+        }
+        
+        .icon-control {
+            width: 12px;
+            height: 12px;
+        }
+    }
+    
+    .client {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+        justify-content: center;
+    
+        &_image {     
+            margin-bottom: 16px;   
+        }
+
+        &_review {        
+            position: relative;
+            width: 100%;
+            background-color: getColor('bgreviews');
+            padding-top: 43px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 26px;
+            text-align: center;
+        }
+    
+        &_message {
+            align-self: center;
+            text-align: right;
+            border-bottom: 1px solid getColor('greyreviews');
+            padding-left: 20px;
+            padding-right: 2px;
+
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 216%;
+            /* or 30px */
+            
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #000000; 
+        }
+    
+        .icon-cita {
+            position: absolute;
+            width: 54px;
+            height: 40px;
+            fill: getColor('greyreviews');
+            top: 25px;
+            left: 30px;
+        }
+    
+        &_name {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 186%;
+            /* or 37px */
+            text-align: center;
+            color: #000000;
+            margin-bottom: 16px;
+        }
+    
+        &_points {
+            font-family: "Titan One";
+            font-style: normal;
+            font-size: 26px;
+            color: getColor('titles');
+            margin-bottom: 12px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+
 .reviews {
-    background-color: getColor("bg1");
+    width: calc(100% - 232px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    overflow: hidden; 
+    padding-top: 30px;
+
+    &_grid {
+        display: flex;
+        width: 300%;  
+    }    
+
+    &_item {
+        width: 100%;
+    }
+
+    &_control {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 72px;
+        gap: 18px;
+        height: 12px;
+        margin: 0 auto;
+    }
+    
+    .icon-control {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+
+    &_review {        
+        position: relative;
+        width: 100%;
+        background-color: getColor('bgreviews');
+        padding: 47px 74px 39px 74px;
+        text-align: center;
+    }
+
+    &_message {
+        width: 968px;
+        align-self: center;
+        text-align: right;
+        border-bottom: 1px solid getColor('greyreviews');
+        padding-left: 37px;
+        padding-right: 36px;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+        /* or 30px */
+        letter-spacing: 0.04em;
+        color: #000000; 
+    }
+
+    .icon-cita {
+        position: absolute;
+        width: 54px;
+        height: 40px;
+        fill: getColor('greyreviews');
+        top: 30px;
+        left: 74px;
+    }
+
+    &_name {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 186%;
+        /* or 37px */
+        text-align: center;
+        color: #000000;
+    }
+
+    &_points {
+        font-family: "Titan One";
+        font-style: normal;
+        font-size: 26px;
+        color: getColor('titles');
+    }
+}
+
 }
