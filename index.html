@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Titan+One&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Ice Cream</title>
 </head>
 
@@ -211,46 +211,42 @@
                     </div>
                     <div>
                         <p class="stand_subtitle">Chicago</p>
-                        <p class="info stand_description">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+                        <p class="stand_description">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
                     </div>
-                    <span class="line-grey"></span>
+                    <hr class="line-grey"></hr>
                     <div class="stand_calendar">
-                        <p class="stand_subtitle">Monday - Friday</p>
+                        <p class="stand_title">Monday - Friday</p>
                         <span class="stand_hour">06:00 AM - 10:00 PM</span>
-                    </div>
-                    <div class="stand_calendar">
-                        <p class="stand_subtitle">Saturday - Sunday</p>
+                        <p class="stand_title">Saturday - Sunday</p>
                         <span class="stand_hour">08:00 AM - 16:00 PM</span>
                     </div>
-                    <span class="line-grey"></span>
-                    <div>
-                        <p class="info stand_contact"><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
-                        <p class="info stand_contact"><a href="mailto:noreply@envato.com">noreply@envato.com</a></p>
+                    <hr class="line-grey"></hr>
+                    <div class="stand_info">
+                        <p ><a class=" stand_contact" href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
+                        <p ><a class=" stand_contact"href="mailto:noreply@envato.com">noreply@envato.com</a></p>
                     </div>
                 </article>
             </li>
             <li class="contact_item">
                 <article class="stand">
-                    <div class="stand_type">
+                    <div class="stand_typegren">
                         FOOD TRUCK
                     </div>
                     <div>
                         <p class="stand_subtitle">Los Angeles</p>
                         <p class="info stand_description">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
                     </div>
-                    <span class="line-grey"></span>
+                    <hr class="line-grey"></hr>
                     <div class="stand_calendar">
-                        <p class="stand_subtitle">Monday - Friday</p>
-                        <span class="stand_hour">06:00 AM - 10:00 PM</span>
-                    </div>
-                    <div class="stand_calendar">
-                        <p class="stand_subtitle">Saturday - Sunday</p>
+                        <p class="stand_title">Monday - Friday</p>
+                        <span class="stand_hour">06:00 AM - 10:00 PM</span>                    
+                        <p class="stand_title">Saturday - Sunday</p>
                         <span class="stand_hour">08:00 AM - 16:00 PM</span>
                     </div>
-                    <span class="line-grey"></span>
-                    <div>
-                        <p class="info stand_contact"><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
-                        <p class="info stand_contact"><a href="mailto:noreply@envato.com">noreply@envato.com</a></p>
+                    <hr class="line-grey"></hr>
+                    <div class="stand_info">
+                        <p ><a class=" stand_contact" href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
+                        <p ><a class=" stand_contact" href="mailto:noreply@envato.com">noreply@envato.com</a></p>
                     </div>
                 </article>
             </li>
@@ -260,34 +256,54 @@
                         CAFE
                     </div>
                     <div>
-                        <p class="stand_city">New York</p>
+                        <p class="stand_subtitle">New York</p>
                         <p class="info stand_description">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
                     </div>
-                    <span class="line-grey"></span>
+                    <hr class="line-grey"></hr>
                     <div class="stand_calendar">
-                        <p class="stand_subtitle">Monday - Friday</p>
+                        <p class="stand_title">Monday - Friday</p>
                         <span class="stand_hour">06:00 AM - 10:00 PM</span>
-                    </div>
-                    <div class="stand_calendar">
-                        <p class="stand_subtitle">Saturday - Sunday</p>
+                        <p class="stand_title">Saturday - Sunday</p>
                         <span class="stand_hour">08:00 AM - 16:00 PM</span>
                     </div>
-                    <span class="line-grey"></span>
-                    <div>
-                        <p class="info stand_contact"><a href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
-                        <p class="info stand_contact"><a href="mailto:noreply@envato.com">noreply@envato.com</a></p>
+                    <hr class="line-grey"></hr>
+                    <div class="stand_info">
+                        <p ><a class=" stand_contact" href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a></p>
+                        <p ><a class=" stand_contact" href="mailto:noreply@envato.com">noreply@envato.com</a></p>
                     </div>
                 </article>
             </li>
         </ul>
 
         <div class="contact_buttons">
-            <buton class="btn-dark">Our Locations
-                <img src="" alt="" width="5px">
-            </buton>
-            <buton class="btn-light">Franchise
-                <img src="" alt="" width="5px">
-            </buton>
+            <button type="button" class="btn-red" id="data-modal-open">Our Locations
+                <svg  width="8" height="10" >
+                    <use href="#icon-contacts"></use>
+                </svg>
+            </button>
+            <button class="btn-white">Franchise
+                <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.57544 1L5.70793 5L1.57544 9" stroke="#D41443" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </button>
+        </div>
+        <div class="bakdrop is-hiden" id="data-modal">
+            <div class="modal__location">
+                <div class="div-close">
+                 <a id="data-modal-close">
+                    <svg class="modal-form-close" width="30" height="30">
+                    <use href="#close"></use>
+                 </svg></a>
+                </div>
+                <h1 class="modal__title">We will glad to see you</h1>
+                <div class="modal__maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27756.37545947191!2d-84.59132897509328!3d43.009239200418726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8822f5a757462399%3A0x9c8612ee1e4f6302!2sKoneval&#39;s%20Kones!5e0!3m2!1ses!2sco!4v1673416743703!5m2!1ses!2sco" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+                <h3 class="modal__subtitle">Yevhe Konovalets Street, 36, Kyiv, 02000</h3>
+                <button class="btn-maps">Open in Google Maps
+                </button>
+            </div>
         </div>
     </section>
 
@@ -308,6 +324,21 @@
         <div class="footer_copyright">© 2022 - IceCream. All Rights Reserved.</div>
     </footer>
 
+    <script src="./assets/js/modal.js"></script>
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
+        <defs>
+            <symbol id="icon-contacts" viewBox="0 0 8 10" fill="none">
+                <path d="M1.61646 1L6.04413 5L1.61646 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+               </symbol>
+               
+               <symbol id="close">
+                                  
+                    <circle cx="15" cy="15" r="14.5" stroke="black" stroke-opacity="0.1"/>
+                   <circle cx="15" cy="15" r="15" fill="white"/>
+                   <path d="M21 11.1079L19.8921 10L15.5 14.3921L11.1079 10L10 11.1079L14.3921 15.5L10 19.8921L11.1079 21L15.5 16.6079L19.8921 21L21 19.8921L16.6079 15.5L21 11.1079Z" />
+               </symbol>
+        </defs>
+    </svg>
 </body>
 
 </html>
