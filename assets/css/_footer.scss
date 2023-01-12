@@ -1,6 +1,7 @@
 
+@media screen and (min-width: 1281px) {
 .footer{
-    width: 1280px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: getColor("bg2");
@@ -18,6 +19,7 @@
     padding: 80px 40px;    
 }
 
+
 .footer_homemade {
     height: 34px;
     left: 16px;
@@ -28,17 +30,65 @@
     color: #FFA5BA;
 }
 
+.footer_homemade:hover {
+    animation-name: cambiarColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cambiarColor {
+    0% {
+        transform: scale(0.9);
+        color: #FFA5BA;
+    }
+
+    35% {
+        transform: scale(1.0);
+        color: getColor("titles");
+    }
+
+    100% {
+        transform: scale(1.1);
+        color: #FFA5BA;
+    }
+}
+
 .footer_passion {
     height: 66px;
     left: 16px;
     font-size: 55px;
     line-height: 66px;
     text-transform: uppercase;
-    padding: 30px 0px;
     display: flex;
     gap: 10px;
     justify-content: space-between;
     color: getColor("titles");
+}
+
+.footer_passion:hover {
+    animation-name: mover;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+        color: getColor("titles");
+        
+    }
+
+    35% {
+        transform: translateY(35%);
+        color: #FFA5BA;
+    }
+
+    100% {
+        transform: translateX(100%) translateY(0);
+        color: getColor("titles");
+    }
 }
 
 .footer_social {
@@ -92,6 +142,10 @@
     
 }
 
+.footer_info:hover{
+    transform: scale(1.1);    
+}
+
 .footer_phone {
     color: getColor("titles");
     font-family: "DM Sans";
@@ -99,6 +153,11 @@
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.02em;
+    transform: scale(1.3)
+}
+
+.footer_phone:hover {
+    color: getColor("subtitles");
 }
 
 .line-grey {
@@ -122,20 +181,46 @@
     color: #907E82;
 }
 
+.footer_copyright:hover {
+    animation-name: changecolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
+@keyframes changecolor {
+    0% {
+        color: getColor("txtgrey");
+        
+        
+    }
 
-@media only screen and (min-width: 480px) {
-    .footer_content {
-        width: 480px;
-            display: flex;
-            flex-direction: column;
-            
-            
-        }
+    25% {
+        color: getColor("black");    
+    }
+
+    50% {
+            color: getColor("txtgrey");
+    }
+
+    75% {
+    color: getColor("hover");
+    }
+
+    100% {
+        color: red;   
+    }
+}
 
 }
 
-@media only screen and (min-width: 768px) {}
+@media screen and (min-width: 320px) and (max-width: 769px) {
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    
+}
 
 
 
