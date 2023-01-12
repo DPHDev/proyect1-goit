@@ -87,10 +87,7 @@
   top: 1717px;
   background: #FFF5F6;
 }
-@media screen and (min-width: 480px) {
-  .about {
-    background-color: darkgreen;
-  }
+@media screen and (min-width: 0px) and (max-width: 487px) {
   .about .about_subtitle {
     font-family: "Titan One";
     font-style: normal;
@@ -114,9 +111,11 @@
     color: #D41443;
   }
   .about .about_img1 {
-    height: 1564px;
+    margin: 0 auto;
     left: 0px;
     top: 2589px;
+    display: block;
+    background: url(../img/desktop/made_background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,7 +127,74 @@
     top: 2793px;
   }
   .about .about_text1 {
-    width: 220px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    /* or 19px */
+    color: #000000;
+  }
+  .about .about_text2 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    /* or 19px */
+    color: #907E82;
+  }
+  .about .about_button {
+    width: 176px;
+    height: 44px;
+    left: 20px;
+    top: 3432px;
+    margin: 20px 0;
+  }
+}
+@media screen and (min-width: 488px) and (max-width: 769px) {
+  .about .about_subtitle {
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFA5BA;
+  }
+  .about .about_title {
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #D41443;
+  }
+  .about .about_img1 {
+    width: 100%;
+    margin: 0, auto;
+    display: flex;
+    justify-content: space-evenly;
+    left: 0px;
+    top: 2589px;
+    background: url(../img/desktop/made_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .about .about_img2 {
+    width: 280px;
+    height: 279px;
+    left: 20px;
+    top: 2793px;
+  }
+  .about .about_text1 {
+    width: 200px;
     height: 79px;
     left: 20px;
     top: 3112px;
@@ -142,7 +208,7 @@
     padding: 40px 0;
   }
   .about .about_text2 {
-    width: 220px;
+    width: 200px;
     height: 181px;
     left: 20px;
     top: 3231px;
@@ -153,20 +219,17 @@
     line-height: 162%;
     /* or 19px */
     color: #907E82;
-    padding: 40px 0;
+    padding: 60px 0;
   }
   .about .about_button {
     width: 176px;
     height: 44px;
     left: 20px;
     top: 3432px;
-    margin: 60px 0;
+    margin: 80px 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .about {
-    background-color: cornflowerblue;
-  }
+@media screen and (min-width: 769px) and (max-width: 1280px) {
   .about .about_subtitle {
     font-family: "Titan One";
     font-style: normal;
@@ -191,11 +254,14 @@
     color: #D41443;
   }
   .about .about_img1 {
+    width: 100%;
+    margin: 0, auto;
     display: flex;
     justify-content: space-evenly;
-    height: 521px;
+    height: auto;
     left: 7px;
     top: 1270px;
+    background: url(../img/desktop/made_background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,7 +273,7 @@
     top: 1471px;
   }
   .about .about_text1 {
-    width: 463px;
+    width: 390px;
     height: 79px;
     font-family: "DM Sans";
     font-style: normal;
@@ -241,10 +307,7 @@
     margin: 80px 0;
   }
 }
-@media screen and (min-width: 1280px) {
-  .about {
-    background-color: aqua;
-  }
+@media screen and (min-width: 1281px) {
   .about .about_subtitle {
     font-family: "Titan One";
     font-style: normal;
@@ -269,9 +332,11 @@
     color: #D41443;
   }
   .about .about_img1 {
+    max-width: 100%;
+    margin: 0, auto;
     display: flex;
     justify-content: space-evenly;
-    height: 521px;
+    height: auto;
     left: 7px;
     top: 1971px;
     background: url(../img/desktop/made_background.png);
