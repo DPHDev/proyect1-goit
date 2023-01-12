@@ -8,7 +8,8 @@
 
 .footer_content {
     display: flex;
-    justify-content: space-between;      
+    justify-content: space-between;
+    padding-top: 70px;      
 }
 
 .footer_slogan {
@@ -20,7 +21,6 @@
 .footer_homemade {
     height: 34px;
     left: 16px;
-    top: 4640px;
     font-size: 30px;
     line-height: 34px;
     letter-spacing: 0.08em;
@@ -124,7 +124,16 @@
 
 
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+    .footer_content {
+        width: 480px;
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+
+}
 
 @media only screen and (min-width: 768px) {}
 
