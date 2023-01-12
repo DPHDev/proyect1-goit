@@ -102,6 +102,7 @@
   transition-property: transform;
    transition-duration: 800ms; 
    transition-timing-function: ease-out;
+   gap: 5px;
 
   &:hover {
     transform: translateY(-10px);
@@ -190,6 +191,12 @@
   width: 198px;
   height: 44px;
  
+  }
+
+  .modal__button{
+    display: flex;
+    justify-content: center;
+    margin:15px;
   }
   
 

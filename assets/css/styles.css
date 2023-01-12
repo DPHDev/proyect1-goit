@@ -100,6 +100,7 @@
   transition-property: transform;
   transition-duration: 800ms;
   transition-timing-function: ease-out;
+  gap: 5px;
 }
 .btn_contact:hover, .btn-white:hover, .btn-red:hover {
   transform: translateY(-10px);
@@ -181,6 +182,12 @@
   align-items: center;
   width: 198px;
   height: 44px;
+}
+
+.modal__button {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
 }
 
 * {
