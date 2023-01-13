@@ -54,7 +54,7 @@
                         <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quasi
                             aperiam explicabo accusamus perferendis commodi unde. Quasi soluta dignissimos unde
                             blanditiis error minus non ipsam, et dolorem fugit earum! Est!</p>
-                        <a href="#section_about"><button class="btn-light btn-arrow" width="26px"> <svg class="icon icon-Flecha_Roja" width="26">
+                        <a href="#section_about"><button class="btn-light btn-arrow" width="26px"><svg class="icon icon-Flecha_Roja" width="26">
                                 <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
                             </svg></button></a>
                     </div>
@@ -159,41 +159,68 @@
 
     <section class="gallery">
         <!-- Esta sección leer lo que dice la guía acerca del degradado de fondo y Massonry Layput Galery -->
-        <img src="" alt="gallería de fotos">
+        <img class="gallery_img" src="/assets/img/desktop/home_group.png" alt="gallería de fotos">
     </section>
 
     <!-- Esta sección esta pendiente completar el maquetado, debo consultar al mentor -->
-    <section class="reviews">
+    <section class="slider">
+        <div class="reviews" id="reviews">
+            <button class="slider_btn-left" id="sliderLeft"><svg class="icon icon-Flecha_Roja" width="52">
+                <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+            </svg></button>
+            <button class="slider_btn-right" id="sliderRight"><svg class="icon icon-Flecha_Roja" width="52">
+                <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+            </svg></button>
         <ul class="reviews_grid">
-            <li class="reviews_item">
+            <li class="reviews_item" id="review1">
                 <article class="client">
-                    <img src="" alt="" class="client_image">
+                    <img src="/assets/img/desktop/testimonials1.png" alt="" class="client_image" width="85">
                     <div class="client_review">
-                        <p class="info client_message"></p>
+                        <svg class="icon icon-cita" width="26">
+                            <use href="/assets/img/icons.svg#icon-cita"></use>
+                        </svg>
+                        <span class="info client_message">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</span>
                     </div>
-                    <p class="client_name"></p>
+                    <p class="client_name">Emily, Los Angeles</p>
                 </article>
             </li>
-            <li class="reviews_item">
+            <li class="reviews_item" id="review2">
                 <article class="client">
-                    <img src="" alt="" class="client_image">
+                    <img src="/assets/img/desktop/testimonials2.png" alt="" class="client_image" width="85">
                     <div class="client_review">
-                        <p class="info client_message"></p>
+                        <svg class="icon icon-cita" width="26">
+                            <use href="/assets/img/icons.svg#icon-cita"></use>
+                        </svg>
+                        <span class="info client_message">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</span>
                     </div>
-                    <p class="client_name"></p>
+                    <p class="client_name">Panchita, Los Angeles</p>
                 </article>
             </li>
-            <li class="reviews_item">
+            <li class="reviews_item" id="review3">
                 <article class="client">
-                    <img src="" alt="" class="client_image">
+                    <img src="/assets/img/desktop/testimonials3.png" alt="" class="client_image" width="85">
                     <div class="client_review">
-                        <p class="info client_message"></p>
+                        <svg class="icon icon-cita" width="26">
+                            <use href="/assets/img/icons.svg#icon-cita"></use>
+                        </svg>
+                        <span class="info client_message">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</span>
                     </div>
-                    <p class="client_name"></p>
+                    <p class="client_name">Rodolfa, Los Angeles</p>
                 </article>
             </li>
         </ul>
-
+        </div>
+        <!-- <div class="reviews_control">
+            <a href="#review1"><svg class="icon icon-control" width="26">
+                <use href="/assets/img/icons.svg#icon-slider-home"></use>
+            </svg></a>
+            <a href="#review2"><svg class="icon icon-control" width="26">
+                <use href="/assets/img/icons.svg#icon-slider-point"></use>
+            </svg></a>
+            <a href="#review3"><svg class="icon icon-control" width="26">
+                <use href="/assets/img/icons.svg#icon-slider-point"></use>
+            </svg></a>
+        </div> -->
     </section>
 
     <section class="contacts" id="section_contact">
@@ -339,7 +366,6 @@
         </span>
         <span class="footer_copyright">© 2022 - IceCream. All Rights Reserved.</span>
     </footer> 
-
 </body>
 
 </html>
