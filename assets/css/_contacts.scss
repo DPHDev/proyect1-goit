@@ -1,8 +1,8 @@
-@import "colors";
-
 .contacts {
   background: linear-gradient(getColor("white"), getColor("background"));
   width: 100%;
+  padding-bottom: 20px;
+  margin-top: 100px;
 }
 
 .contact_grid {
@@ -53,13 +53,7 @@
   color: getColor("txtgrey");
   padding-bottom: 32px;
 }
-.line-grey {
-  width: 288px;
-  height: 0px;
-  left: 56px;
-  top: 4097px;
-  border: 1px solid #e1e1e1;
-}
+
 .stand_hour {
   @extend .stand;
   color: getColor("subtitles");
@@ -225,7 +219,7 @@
 }
 
 //Movil
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .contact_grid {
     display: flex;
     flex-wrap: wrap;
@@ -247,9 +241,6 @@
   .contact_item {
     width: 280px;
     height: 412px;
-  }
-  .line-grey {
-    width: 216px;
   }
   .contact_buttons {
     display: flex;
@@ -279,7 +270,7 @@
 }
 
 //Tablet
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1279px) {
   .contact_item {
     width: 224px;
     padding: 30px;
@@ -288,19 +279,13 @@
   .stand {
     font-size: 14px;
   }
-
-  .line-grey {
-    width: 160px;
-    left: 48px;
-    top: 3239px;
-  }
   .btn_contact{
     width: 190px;
   }
 }
 
 //Descktop
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (min-width: 1280px) {
   .contacts {
     width: 100%;
   }

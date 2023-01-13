@@ -1,12 +1,13 @@
-@import 'styles';
-
 .about{
-    height: 737px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 10px;
     left: 0px;
     top: 1717px;
     background: #FFF5F6;
 
-    @media screen and (min-width: 0px) and (max-width: 487px){
+    @media screen and (min-width: 320px) and (max-width:768px){
 
         .about_subtitle {    
             font-family: 'Titan One';
@@ -63,7 +64,7 @@
             /* or 19px */
                        
             color: #000000;
-           
+           margin-bottom: 30px;
         }
 
         .about_text2{    
@@ -89,7 +90,7 @@
 
     }
 
-    @media screen and (min-width: 488px) and (max-width: 769px){
+    @media screen and (min-width: 769px) and (max-width: 1279px){
 
         .about_subtitle {    
             font-family: 'Titan One';
@@ -142,17 +143,15 @@
             width: 200px;
             height: 79px;
             left: 20px;
-            top: 3112px;
-            
+            top: 3112px;       
             font-family: 'DM Sans';
             font-style: normal;
             font-weight: 500;
             font-size: 12px;
             line-height: 162%;
-            /* or 19px */
-                       
+            /* or 19px */      
             color: #000000;
-            padding: 40px 0;
+            margin-bottom: 20px;
         }
 
         .about_text2{
@@ -169,7 +168,6 @@
             /* or 19px */
        
             color: #907E82;
-            padding: 60px 0;
         }
 
         .about_button{
@@ -177,7 +175,7 @@
             height: 44px;
             left: 20px;
             top: 3432px;
-            margin: 80px 0;
+            margin-top: 80px;
         }
 
 
@@ -272,7 +270,7 @@
             height: 44px;
             left: 400px;
             top: 1785px;
-            margin: 80px 0;
+            margin-top: 80px;
         }
     }
 

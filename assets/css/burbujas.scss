@@ -1,0 +1,129 @@
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+    z-index: 20;
+
+    animation: burbujas 3s linear infinite ;
+
+    &_one{
+        width: 80px;
+        height: 80px;
+        left: 5%;
+        animation-duration: 3s;
+        animation-delay: 3s;
+    }
+    
+    &_two{
+        width: 100px;
+        height: 100px;
+        left: 35%;
+        animation-duration: 3s;
+        animation-delay: 5s;
+    }
+
+    &_three{
+        width: 20px;
+        height: 20px;
+        left: 15%;
+        animation-duration: 1.5s;
+        animation-delay: 7s;
+    }
+    
+    &_four{
+        width: 50px;
+        height: 50px;
+        left: 90%;
+        animation-duration: 6s;
+        animation-delay: 3s;
+    }
+    
+    &_five{
+        width: 70px;
+        height: 70px;
+        left: 65%;
+        animation-duration: 3s;
+        animation-delay: 1s;
+    }
+    
+    &_six{
+        width: 20px;
+        height: 20px;
+        left: 70%;
+        animation-duration: 4s;
+        animation-delay: 5s;
+    }
+    
+    &_seven{
+        width: 20px;
+        height: 20px;
+        left: 50%;
+        animation-duration: 4s;
+        animation-delay: 5s;
+    }
+    
+    &_eigth{
+        width: 100;
+        height: 100px;
+        left: 52%;
+        animation-duration: 5s;
+        animation-delay: 5s;
+    }
+    
+    &_nine{
+        width: 65px;
+        height: 65px;
+        left: 51%;
+        animation-duration: 3s;
+        animation-delay: 2s;
+    }
+    
+    &_ten{
+        width: 40px;
+        height: 40px;
+        left: 25%;
+        animation-duration: 3s;
+        animation-delay: 4s;
+    }
+    &_eleven{
+        width: 50px;
+        height: 50px;
+        left: 10%;
+        animation-duration: 3s;
+        animation-delay: 5s;
+    }
+    &_twelve{
+        width: 40px;
+        height: 40px;
+        left: 80%;
+        animation-duration: 3s;
+        animation-delay: 3s;
+    }
+
+    &_thirteen{
+        width: 20px;
+        height: 20px;
+        left: 75%;
+        animation-duration: 3s;
+        animation-delay: 5s;
+    }
+}
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}

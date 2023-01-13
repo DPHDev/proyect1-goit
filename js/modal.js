@@ -14,4 +14,18 @@
    
   })();
 
- 
+  const openmodal = document.querySelector('.openmodal');
+  const modalh = document.querySelector('.backdrop');
+  const closemodal = document.querySelector('.closemodal');
+  
+  
+  
+  openmodal.addEventListener('click',(e)=>{
+      e.preventDefault();
+      modalh.classList.add('is-hidden');    
+  });
+  
+  closemodal.addEventListener('click',(e)=>{
+      e.preventDefault();
+      modalh.classList.remove('is-hidden');    
+  });

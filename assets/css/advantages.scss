@@ -1,0 +1,155 @@
+// Movil:
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+    .advantages { 
+        background-color:getColor(bg2);   
+        padding-bottom: 50px;
+    }
+  
+  .advantages_grid {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      justify-content: center;
+      gap: 60px;
+  }
+  .advantages_item {
+      align-items:center;
+      justify-self: flex-start;
+  
+  }
+
+  .svg-advantages {
+      display: flex;
+      align-items: center;
+      width:50px;
+      height:50px;
+  }
+  
+  .benefit {
+      width: 288px;
+     }
+  
+  .tittle_advant {
+      color: getColor(titles) ;
+      font-size: 36px;
+      margin-bottom: 25%;
+      width: 98px;
+      height: 56px;
+      
+  }
+  .benefit_info {
+      width: 230px;
+      margin-top: 12px;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+  } 
+  
+  }
+  
+  // Tablet:
+  @media screen and (min-width: 769px) and (max-width: 1280px){
+      
+      .advantages { 
+          background-color:getColor(bg2)  ;
+          display: flex;
+          flex-direction: column;  
+         padding-bottom: 40px;
+         width: 100%;  
+      }
+      
+      .advantages_grid {        
+          display: flex;
+          flex-direction: row;
+          padding: 30px;
+          gap: 60px;
+      }
+      .advantages_item {
+          align-items:center;
+          justify-self: flex-start;
+          justify-content: center;
+          width: 180px;
+      }
+
+      .svg-advantages {
+          display: flex;
+          align-items: center;
+          width:50px;
+          height:50px;
+      }
+      
+      .benefit {
+          width: 180px;
+         }
+      
+      .tittle_advant {
+          color: getColor(titles) ;
+          font-size: 48px;
+          margin-bottom: 25%;
+          width: 98px;
+          height: 56px;
+          
+      }
+      .benefit_info {
+          width: 230px;
+          margin-top: 14px;
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+      } 
+     
+  }
+  
+  // Escritorio:
+  @media screen and (min-width: 1281px) {
+      .advantages { 
+          background-color:getColor(bg2)  ;
+          display: flex;
+          flex-direction: column;  
+         padding-bottom: 6px;
+      }
+      
+      .advantages_grid {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          padding: 30px;
+          gap: 40px;
+      }
+      .advantages_item {
+          align-items:center;
+          justify-self: flex-start;
+          width: 288px;
+      }
+
+      .svg-advantages {
+          display: flex;
+          align-items: center;
+          width:50px;
+          height:50px;
+      }
+      
+      .benefit {
+          width: 288px;
+         }
+      
+      .tittle_advant {
+          color: getColor(titles) ;
+          font-size: 58px;
+          margin-bottom: 25%;
+          width: 98px;
+          height: 56px;        
+      }
+      .benefit_info {
+          width: 230px;
+          margin-top: 14px;
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+      }
+}

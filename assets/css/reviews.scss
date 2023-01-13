@@ -105,8 +105,8 @@
                   
                   @keyframes click {
                     0% {
-                      background-color: getColor("titles");
-                        fill: getColor("white");
+                        background-color: getColor("white");
+                        fill: getColor("titles");
                     }
                   
                     100% {
@@ -130,7 +130,6 @@
         overflow-x: scroll; 
         scroll-snap-type: mandatory;
         overflow-y: hidden;
-        margin-bottom: 32px;
         scroll-behavior: smooth;
     
         /* width */
@@ -313,8 +312,8 @@
                   
                 @keyframes click {
                     0% {
-                      background-color: getColor("titles");
-                        fill: getColor("white");
+                        background-color: getColor("white");
+                        fill: getColor("titles");
                     }
                   
                     100% {
@@ -358,8 +357,8 @@
                   
                 @keyframes click {
                     0% {
-                      background-color: getColor("titles");
-                        fill: getColor("white");
+                        background-color: getColor("white");
+                        fill: getColor("titles");
                     }
                   
                     100% {
@@ -383,9 +382,7 @@
         overflow-x: scroll; 
         scroll-snap-type: x mandatory;
         overflow-y: hidden;
-        margin-bottom: 32px;
         scroll-behavior: smooth;
-    
         /* width */
         &::-webkit-scrollbar {
             width: 20px;
@@ -492,7 +489,6 @@
             /* or 37px */
             text-align: center;
             color: #000000;
-            margin-bottom: 16px;
 
             &::before {
                 display: block;

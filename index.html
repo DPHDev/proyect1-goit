@@ -17,65 +17,116 @@
 
 <body>
     <header class="header" id="section_home">
+        <div class="header_circle"></div>
+        <div class="header_circleone"></div>
+        <div class="header_circletwo"></div>
         <nav class="navbar">
-            <div class="navbar_logo">
-                <img src="" alt="Logo heladería" width="50px">
-                <span class="navbar_name">ICECREAM</span>
-            </div>
-            <ul class="navbar_menu">
-                <li><a href="#section_home">Home</a></li>
-                <li><a href="#section_about">About us</a></li>
-                <li><a href="#section_about">How it's made?</a></li>
-                <li><a href="#section_products">Our products</a></li>
-                <li><a href="#section_contact">Contact</a></li>
-            </ul>
-
-            <button class="btn-light navbar_btn">
-                Buy now
-                <img src="" alt="" width="5px">
+          <div class="navbar_logo">
+            <svg class="header_icon">
+              <use href="assets/img/icons.svg#icon-Icono_Icecream"></use>
+            </svg>
+          </div>
+  
+          <ul class="navbar_menu">
+            <li class="navbar_items"><a class="navbar_item" href="#section_home">Home</a></li>
+            <li class="navbar_items"><a class="navbar_item" href="#section_about">About us</a></li>
+            <li class="navbar_items">
+              <a class="navbar_item" href="#section_about">How it's made?</a>
+            </li>
+            <li class="navbar_items">
+              <a class="navbar_item" href="#section_products">Our products</a>
+            </li>
+            <li class="navbar_items"><a class="navbar_item" href="#section_contact">Contact</a></li>
+          </ul>
+          <div class="navbar_button">
+            <button class="navbar_buttonicon js-open-menu">
+              <svg class="navbar_icon js-open-menu">
+                <use
+                  href="assets/img/icons.svg#icon-lineas_menu_tablet_mobile"
+                ></use>
+              </svg>
             </button>
+            <button class="btn-light navbar_btn openmodal">Buy now</button>
+          </div>
         </nav>
-
-        <section class="header_content">
-            <div class="main">
-                <article class="main_slogan">
-                    <h1 class="title slogan_tittle"> ICE CREAM <br>
-                        MADE WITH <br>
-                        <span class="title section-tittle">PASSION</span>
-                    </h1>
-                    <div class="slogan_buttons">
-                        <a href="#section_products"><button class="btn-dark">Products</button></a>
-                        <a href="#section_about"><button class="btn-light">How it's made?</button></a>
-                    </div>
-                </article>
-                <article class="main_info">
-                    <img src="" alt="Jarra de leche">
-                    <div>
-                        <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quasi
-                            aperiam explicabo accusamus perferendis commodi unde. Quasi soluta dignissimos unde
-                            blanditiis error minus non ipsam, et dolorem fugit earum! Est!</p>
-                        <a href="#section_about"><button class="btn-light btn-arrow" width="26px"><svg class="icon icon-Flecha_Roja" width="26">
-                                <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
-                            </svg></button></a>
-                    </div>
-                </article>
+  
+        <div class="header_content">
+          <div class="main">
+            <article class="main_slogan">
+              <h1 class="title slogan_tittle">
+                <span class="main_block">ICE CREAM</span>
+                <br />
+                <span class="main_block">MADE WITH</span>
+                <br />
+                <span class="title section-tittle">PASSION</span>
+              </h1>
+              <ul class="slogan_buttons">
+                <li>
+                  <a href="#section_products"
+                    ><button class="btn-dark">Products</button></a
+                  >
+                </li>
+                <li>
+                  <a href="#section_about"
+                    ><button class="btn-light slogan_btn">
+                      How it's made?
+                    </button></a
+                  >
+                </li>
+              </ul>
+            </article>
+            <div class="main_info">
+              <img class="main_img" src="assets/img/desktop/slider2.png" alt="" />
+              <div class="main_infoadd">
+                <p class="info">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et
+                </p>
+                <a href="#section_about"
+                  ><button class="btn-light btn-arrow">
+                    <svg class="icon icon-Flecha_Roja" width="26">
+                      <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+                    </svg></button
+                ></a>
+              </div>
             </div>
-            <aside class="sidebar">
-                <div>
-                    <svg width="30" height="30" class="sidebar_circle">
-                        <circle r="30" fill="white" />
-                    </svg>
-                    <span class="title sidebar_number">16</span>
-                    <p class="info">cafes</p>
-                </div>
-                <div>
-                    <span class="title sidebar_number">23</span>
-                    <p class="info">food trucks</p>
-                </div>
-            </aside>
-        </section>
-
-    </header>
+          </div>
+          <aside class="sidebar">
+            <img
+              class="photo-icecream"
+              src="assets/img/desktop/slider1.png"
+              alt=""
+            />
+            <div class="sidebar_numbers">
+              <div class="sidebar_one sideba_price">
+                <span class="title sidebar_number">16</span>
+                <p class="info">cafes</p>
+              </div>
+              <div class="sidebar_two sideba_price">
+                <span class="title sidebar_number">23</span>
+                <p class="info">food trucks</p>
+              </div>
+              <div class="sidebar_add"></div>
+              <div class="sidebar_images">
+                <img src="assets/img/desktop/slider3.png" alt="" />
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="burbuja burbuja_one"></div>
+        <div class="burbuja burbuja_two"></div>
+        <div class="burbuja burbuja_three"></div>
+        <div class="burbuja burbuja_four"></div>
+        <div class="burbuja burbuja_five"></div>
+        <div class="burbuja burbuja_six"></div>
+        <div class="burbuja burbuja_seven"></div>
+        <div class="burbuja burbuja_eight"></div>
+        <div class="burbuja burbuja_nine"></div>
+        <div class="burbuja burbuja_ten"></div>
+        <div class="burbuja burbuja_eleven"></div>
+        <div class="burbuja burbuja_twelve"></div>
+        <div class="burbuja burbuja_thirteen"></div> 
+      </header>
 
     <section class="products" id="section_products">
         <span class="section-subtitle">100% NATURAL</span>
@@ -120,7 +171,7 @@
                 <p class="about_text2"> Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
                     <br><br>Aliquam erat volutpat. Aenean accumsan.
                 </p>
-                <svg class="about_button">
+                <svg class="about_button btn-light">
                     <use href="./assets/img/icons.svg#icon-Btn"></use>
                   </svg>
             </div>
@@ -130,23 +181,32 @@
     <section class="advantages">
         <!-- Este título debe llevar la propiedad hidden en el css, o la propiedad display:none; para que no sea visible -->
         <h2 class="hidden_tittle">BENEFICIOS</h2>
-        <ul class="grid">
-            <li class="grid_item">
+        <ul class="advantages_grid">
+            <li class="advantages_item">
                 <article class="benefit">
-                    <span class="tittle">721</span>
-                    <p class="info benefit_info">Lo que diga ahí</p>
+                    <svg class="svg-advantages">
+                        <use href="/assets/img/icons.svg#icon-Icrecream_vaso"></use>
+                    </svg>
+                    <span class="tittle_advant">721</span>
+                    <p class="info benefit_info">Aliquam ac dui vel dui vulputaпte consectetur. Mauris massa./p>
                 </article>
             </li>
-            <li class="grid_item"></li>
+            <li class="advantages_item">
             <article class="benefit">
-                <span class="tittle">16kg</span>
-                <p class="info benefit_info">Lo que diga ahí</p>
+                <svg class="svg-advantages">
+                    <use href="/assets/img/icons.svg#icon-Icecream_manzanas"></use>
+                </svg>
+                <span class="tittle_advant">16kg</span>
+                <p class="info benefit_info">Aliquam ac dui vel dui vulputaпte consectetur. Mauris massa.</p>
             </article>
             </li>
-            <li class="grid_item"></li>
+            <li class="advantages_item">
             <article class="benefit">
-                <span class="tittle">84</span>
-                <p class="info benefit_info">Lo que diga ahí</p>
+                <svg class="svg-advantages">
+                    <use href="/assets/img/icons.svg#icon-Icecream_corazon"></use>
+                </svg>
+                <span class="tittle_advant">84</span>
+                <p class="info benefit_info">Aliquam ac dui vel dui vulputaпte consectetur. Mauris massa.</p>
             </article>
             </li>
         </ul>
@@ -416,9 +476,7 @@
             </svg>
         </span>
         <span class="footer_copyright">© 2022 - IceCream. All Rights Reserved.</span>
-    </footer> 
-        <script src="./assets/js/modal.js"></script>
-    <script src="./assets/js/modal-fran.js"></script>
+    </footer>
     <svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
         <defs>
             <symbol id="icon-contacts" viewBox="0 0 8 10" fill="none">
@@ -433,6 +491,10 @@
                </symbol>
         </defs>
     </svg>
+    <script src="./js/slider.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/modal-fran.js"></script>
+    <script src="./js/mobil.js"></script>
 </body>
 
 </html>
