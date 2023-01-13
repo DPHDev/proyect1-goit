@@ -83,7 +83,7 @@
             position: relative;
 
             &::before {
-                content: url(./assets/img/movil/product1.png);
+                content: url(../img/movil/product1.png);
                 position: absolute;
                 top: -150px;
             }
@@ -94,7 +94,7 @@
             position: relative;
 
             &::before {
-                content: url(./assets/img/movil/product2.png);
+                content: url(../img/movil/product2.png);
                 position: absolute;
                 top: -150px;
             }
@@ -105,7 +105,7 @@
             position: relative;
 
             &::before {
-                content: url(./assets/img/movil/product3.png);
+                content: url(../img/movil/product3.png);
                 position: absolute;
                 top: -150px;
             }
@@ -223,7 +223,7 @@
             position: relative;
 
             &::before {
-                content: url(./assets/img/tablet/product1.png);
+                content: url(../img/tablet/product1.png);
                 position: absolute;
                 top: -150px;
             }
@@ -234,7 +234,7 @@
             position: relative;
 
             &::before {
-                content: url(./assets/img/tablet/product2.png);
+                content: url(../img/tablet/product2.png);
                 position: absolute;
                 top: -150px;
             }
@@ -245,7 +245,7 @@
             position: relative;
 
             &::before {
-                content: url(./assets/img/tablet/product3.png);
+                content: url(../img/tablet/product3.png);
                 position: absolute;
                 top: -150px;
             }
