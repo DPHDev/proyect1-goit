@@ -1,7 +1,7 @@
 /* -----------------Section Products Movil------------------- */
 @media screen and (min-width: 320px) and (max-width: 769px) {
   .products {
-    background-color: #E5E5E5;
+    background-color: getColor("bg1");
     width: 100%;
     height: auto;
     padding-bottom: 10px;
@@ -52,11 +52,11 @@
     transition: all 0.8s ease-in-out 0s;
   }
   .products .grid .product:hover .btn-arrow {
-    background-color: #D41443;
+    background-color: getColor("titles");
     border-radius: 10px;
   }
   .products .grid .product:hover .btn-arrow svg {
-    fill: #FFFFFF;
+    fill: getColor("white");
     transform: rotate(-90deg);
     transition: all 0.8s ease-in-out 0s;
   }
@@ -69,7 +69,7 @@
     text-shadow: 0px 1px 2px rgba(24, 23, 23, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .products .grid .icecream {
-    background-color: #FFB8CA;
+    background-color: getColor("main");
     position: relative;
   }
   .products .grid .icecream::before {
@@ -78,7 +78,7 @@
     top: -150px;
   }
   .products .grid .icecoffee {
-    background-color: #F0D1A5;
+    background-color: getColor("mocca");
     position: relative;
   }
   .products .grid .icecoffee::before {
@@ -87,7 +87,7 @@
     top: -150px;
   }
   .products .grid .milkshakes {
-    background-color: #C2E297;
+    background-color: getColor("olive");
     position: relative;
   }
   .products .grid .milkshakes::before {
@@ -99,14 +99,14 @@
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: getColor("white");
     margin-top: 100px;
     margin-bottom: 40px;
   }
   .products .grid .product_tittle::after {
     content: "...";
     display: block;
-    color: #FFFFFF;
+    color: getColor("white");
     border-radius: 4px;
   }
   .products .grid .product_info {
@@ -117,14 +117,14 @@
     line-height: 21px;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: getColor("white");
     margin-bottom: 50px;
   }
 }
 /* -----------------Section Products Tablet------------------ */
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .products {
-    background-color: #E5E5E5;
+    background-color: getColor("bg1");
     width: 100%;
     height: auto;
     padding-bottom: 30px;
@@ -173,11 +173,11 @@
     transition: all 0.8s ease-in-out 0s;
   }
   .products .grid .product:hover .btn-arrow {
-    background-color: #D41443;
+    background-color: getColor("titles");
     border-radius: 10px;
   }
   .products .grid .product:hover .btn-arrow svg {
-    fill: #FFFFFF;
+    fill: getColor("white");
     transform: rotate(-90deg);
     transition: all 0.8s ease-in-out 0s;
   }
@@ -190,7 +190,7 @@
     text-shadow: 0px 1px 2px rgba(24, 23, 23, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .products .grid .icecream {
-    background-color: #FFB8CA;
+    background-color: getColor("main");
     position: relative;
   }
   .products .grid .icecream::before {
@@ -199,7 +199,7 @@
     top: -150px;
   }
   .products .grid .icecoffee {
-    background-color: #F0D1A5;
+    background-color: getColor("mocca");
     position: relative;
   }
   .products .grid .icecoffee::before {
@@ -208,7 +208,7 @@
     top: -150px;
   }
   .products .grid .milkshakes {
-    background-color: #C2E297;
+    background-color: getColor("olive");
     position: relative;
   }
   .products .grid .milkshakes::before {
@@ -220,14 +220,14 @@
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: getColor("white");
     margin-top: 50px;
     margin-bottom: 20px;
   }
   .products .grid .product_tittle::after {
     content: "...";
     display: block;
-    color: #FFFFFF;
+    color: getColor("white");
     border-radius: 4px;
   }
   .products .grid .product_info {
@@ -238,14 +238,14 @@
     line-height: 25px;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: getColor("white");
     margin-bottom: 28px;
   }
 }
 /* -----------------Section Products Desktop----------------- */
 @media screen and (min-width: 1281px) {
   .products {
-    background-color: #E5E5E5;
+    background-color: getColor("bg1");
     width: 100%;
     height: auto;
     padding-bottom: 50px;
@@ -294,11 +294,11 @@
     transition: all 0.8s ease-in-out 0s;
   }
   .products .grid .product:hover .btn-arrow {
-    background-color: #D41443;
+    background-color: getColor("titles");
     border-radius: 10px;
   }
   .products .grid .product:hover .btn-arrow svg {
-    fill: #FFFFFF;
+    fill: getColor("white");
     transform: rotate(-90deg);
     transition: all 0.8s ease-in-out 0s;
   }
@@ -311,7 +311,7 @@
     text-shadow: 0px 1px 2px rgba(24, 23, 23, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .products .grid .icecream {
-    background-color: #FFB8CA;
+    background-color: getColor("main");
     position: relative;
   }
   .products .grid .icecream::before {
@@ -320,7 +320,7 @@
     top: -300px;
   }
   .products .grid .icecoffee {
-    background-color: #F0D1A5;
+    background-color: getColor("mocca");
     position: relative;
   }
   .products .grid .icecoffee::before {
@@ -329,7 +329,7 @@
     top: -300px;
   }
   .products .grid .milkshakes {
-    background-color: #C2E297;
+    background-color: getColor("olive");
     position: relative;
   }
   .products .grid .milkshakes::before {
@@ -341,14 +341,14 @@
     font-size: 30px;
     line-height: 34px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: getColor("white");
     margin-top: 50px;
     margin-bottom: 20px;
   }
   .products .grid .product_tittle::after {
     content: "...";
     display: block;
-    color: #FFFFFF;
+    color: getColor("white");
     border-radius: 4px;
   }
   .products .grid .product_info {
@@ -359,85 +359,7 @@
     line-height: 28px;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: getColor("white");
     margin-bottom: 60px;
   }
-}
-* {
-  font-family: "DM Sans", sans-serif;
-  font-family: "Titan One", cursive;
-  margin: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.button, .btn-arrow, .btn-light, .btn-dark {
-  display: flex;
-  border-radius: 22px;
-  font-family: "DM Sans";
-  font-style: normal;
-  color: #D41443;
-  fill: #D41443;
-  border: 0;
-}
-.button:hover, .btn-arrow:hover, .btn-light:hover, .btn-dark:hover {
-  background-color: #ECEBEB;
-  color: #D41443;
-}
-
-.btn-dark {
-  background-color: #D41443;
-  color: #FFFFFF;
-}
-
-.btn-light {
-  background-color: #FFFFFF;
-}
-
-.btn-arrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  background-color: #FFFFFF;
-  cursor: pointer;
-}
-
-.icon-Flecha_Roja {
-  width: 12px;
-  height: 12px;
-}
-
-.tittle, .navbar_name, .section-subtitle, .section-tittle {
-  font-family: "Titan One";
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.section-tittle {
-  text-align: center;
-  font-size: 58px;
-  line-height: 66px;
-  letter-spacing: 0.06em;
-  color: #D41443;
-}
-
-.section-subtitle {
-  text-align: center;
-  font-size: 38px;
-  line-height: 34px;
-  letter-spacing: 0.04em;
-  color: #FFA5BA;
-}
-
-.navbar_name {
-  font-size: 25px;
-  color: #D41443;
-}
-
-.hidden_tittle {
-  visibility: hidden;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=products.css.map */
