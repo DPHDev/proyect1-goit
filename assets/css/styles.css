@@ -1,6 +1,6 @@
 .contacts {
   background: linear-gradient(#FFFFFF, #FFF5F6);
-  width: 1200px;
+  width: 100%;
 }
 
 .contact_grid {
@@ -16,6 +16,9 @@
   width: 368px;
   height: 538px;
   padding: 40px;
+}
+.contact_item:hover {
+  box-shadow: 0px 5px 15px 8px rgba(158, 141, 141, 0.3);
 }
 
 .stand, .modal__subtitle, .modal__title, .stand_title, .stand_contact, .stand_hour, .stand_description, .stand_subtitle, .stand_type, .stand_typegren {
@@ -170,7 +173,7 @@
   text-align: center;
 }
 
-.btn-maps {
+.btn__maps, .btn__send {
   border: 2px solid #D41443;
   color: #D41443;
   display: flex;
@@ -182,6 +185,7 @@
   align-items: center;
   width: 198px;
   height: 44px;
+  background: #FFFFFF;
 }
 
 .modal__button {
@@ -190,6 +194,99 @@
   margin: 15px;
 }
 
+.modal__form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal__label {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.modal__textarea {
+  font-size: 12px;
+  font-family: "DM Sans";
+  font-style: normal;
+  resize: none;
+}
+
+.btn__send {
+  width: 90px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .contact_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+  .stand, .stand_type, .stand_subtitle, .stand_description, .stand_hour, .stand_contact, .stand_title, .stand_typegren, .modal__title, .modal__subtitle {
+    font-size: 12px;
+  }
+  .stand_type, .stand_typegren {
+    width: 80px;
+    height: 16px;
+    left: 52px;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .contact_item {
+    width: 280px;
+    height: 412px;
+  }
+  .line-grey {
+    width: 216px;
+  }
+  .contact_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 90px;
+  }
+  .stand_subtitle {
+    margin-top: 20px;
+  }
+  .stand_description {
+    padding-bottom: 24px;
+  }
+  .stand_calendar {
+    margin: 24px 0px;
+  }
+  .stand_typegren {
+    width: 130px;
+    height: 16px;
+  }
+  .btn_contact, .btn-red, .btn-white {
+    width: 160px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact_item {
+    width: 224px;
+    padding: 30px;
+  }
+  .stand, .stand_type, .stand_subtitle, .stand_description, .stand_hour, .stand_contact, .stand_title, .stand_typegren, .modal__title, .modal__subtitle {
+    font-size: 14px;
+  }
+  .line-grey {
+    width: 160px;
+    left: 48px;
+    top: 3239px;
+  }
+  .btn_contact, .btn-red, .btn-white {
+    width: 190px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1280px) {
+  .contacts {
+    width: 100%;
+  }
+}
 * {
   font-family: "DM Sans", sans-serif;
   font-family: "Titan One", cursive;

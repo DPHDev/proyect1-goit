@@ -281,7 +281,7 @@
                     <use href="#icon-contacts"></use>
                 </svg>
             </button>
-            <button class="btn-white">Franchise
+            <button class="btn-white" id="data-modal-open-fran">Franchise
                 <svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.57544 1L5.70793 5L1.57544 9" stroke="#D41443" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
@@ -303,7 +303,45 @@
                 
                 <h3 class="modal__subtitle">Yevhe Konovalets Street, 36, Kyiv, 02000</h3>
                 <div class="modal__button">
-                <button class="btn-maps">Open in Google Maps
+                <button class="btn__maps">Open in Google Maps
+                </button>
+            </div>
+            </div>
+        </div>
+
+        <div class="bakdrop is-hiden" id="data-modal-fran">
+            <div class="modal__location">
+                <div class="div-close">
+                 <a id="data-modal-close-fran">
+                    <svg class="modal-form-close" width="30" height="30">
+                    <use href="#close"></use>
+                 </svg></a>
+                </div>
+                <h1 class="modal__title">Leave you details and maybe we eill call you back</h1>              
+                    <form action="">
+                        <div class="modal__form">
+                        <label class="modal__label" for="">
+                            name
+                        </label>
+                        <input type="text">
+                        <label class="modal__label" for="">
+                            number
+                        </label>
+                        <input type="text">
+                        <label class="modal__label" for="">
+                            email
+                        </label>
+                        <input type="text">
+                        <label class="modal__label" for="">
+                            a few words 
+                        </label>
+                        <textarea class="modal__textarea" name="" id="" cols="30" rows="5" placeholder="write here"></textarea>
+                    </div>
+                    </form>
+                
+        
+                <div class="modal__button">
+                <button class="btn__send">send
                 </button>
             </div>
             </div>
@@ -328,6 +366,7 @@
     </footer>
 
     <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/modal-fran.js"></script>
     <svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
         <defs>
             <symbol id="icon-contacts" viewBox="0 0 8 10" fill="none">
