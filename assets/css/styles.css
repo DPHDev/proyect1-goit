@@ -636,7 +636,7 @@
     position: relative;
   }
   .products .grid .icecream::before {
-    content: url(./assets/img/desktop/product1.png);
+    content: url(../img/desktop/product1.png);
     position: absolute;
     top: -300px;
   }
@@ -645,7 +645,7 @@
     position: relative;
   }
   .products .grid .icecoffee::before {
-    content: url(./assets/img/desktop/product2.png);
+    content: url(../img/desktop/product2.png);
     position: absolute;
     top: -300px;
   }
@@ -654,7 +654,7 @@
     position: relative;
   }
   .products .grid .milkshakes::before {
-    content: url(./assets/img/desktop/product3.png);
+    content: url(../img/desktop/product3.png);
     position: absolute;
     top: -300px;
   }
