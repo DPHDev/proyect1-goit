@@ -1,3 +1,292 @@
+.contacts {
+  background: linear-gradient(#FFFFFF, #FFF5F6);
+  width: 100%;
+}
+
+.contact_grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.contact_item {
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  background: #FFFFFF;
+  width: 368px;
+  height: 538px;
+  padding: 40px;
+}
+.contact_item:hover {
+  box-shadow: 0px 5px 15px 8px rgba(158, 141, 141, 0.3);
+}
+
+.stand, .modal__subtitle, .modal__title, .stand_title, .stand_contact, .stand_hour, .stand_description, .stand_subtitle, .stand_type, .stand_typegren {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  font-style: normal;
+  font-family: "DM Sans";
+}
+
+.stand_type, .stand_typegren {
+  background: #F0D1A5;
+  border-radius: 6px;
+  width: 75.1px;
+  height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.stand_subtitle {
+  color: #000000;
+  margin-top: 32px;
+}
+
+.stand_description {
+  color: #907E82;
+  padding-bottom: 32px;
+}
+
+.line-grey {
+  width: 288px;
+  height: 0px;
+  left: 56px;
+  top: 4097px;
+  border: 1px solid #e1e1e1;
+}
+
+.stand_hour {
+  color: #FFA5BA;
+}
+
+.stand_contact {
+  color: #907E82;
+}
+
+.stand_title {
+  color: #000000;
+}
+
+.stand_calendar {
+  margin: 32px 0px;
+}
+
+.stand_info {
+  margin-top: 32px;
+}
+
+.stand_typegren {
+  background: #C2E297;
+  width: 138px;
+}
+
+.contact_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 60px 0px 60px;
+}
+
+.btn_contact, .btn-white, .btn-red {
+  display: flex;
+  border-radius: 22px;
+  font-family: "DM Sans";
+  font-style: normal;
+  fill: #D41443;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 44px;
+  transition-property: transform;
+  transition-duration: 800ms;
+  transition-timing-function: ease-out;
+  gap: 5px;
+}
+.btn_contact:hover, .btn-white:hover, .btn-red:hover {
+  transform: translateY(-10px);
+}
+
+.btn-red {
+  background-color: #D41443;
+  color: #FFFFFF;
+}
+
+.btn-white {
+  background-color: #FFFFFF;
+}
+
+.bakdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.659);
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.is-hiden {
+  visibility: hidden;
+}
+
+.modal__location {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 380px;
+  height: 480px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 2px solid #FFA5BA;
+}
+
+.div-close {
+  display: flex;
+  justify-content: end;
+}
+
+.modal__title {
+  color: #D41443;
+  font-weight: bold;
+  text-align: center;
+  font-size: 19px;
+}
+
+.modal__maps {
+  display: flex;
+  justify-content: center;
+}
+
+.modal__subtitle {
+  color: #D41443;
+  text-align: center;
+}
+
+.btn__maps, .btn__send {
+  border: 2px solid #D41443;
+  color: #D41443;
+  display: flex;
+  border-radius: 22px;
+  font-family: "DM Sans";
+  font-style: normal;
+  fill: #D41443;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 44px;
+  background: #FFFFFF;
+}
+
+.modal__button {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.modal__form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal__label {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.modal__textarea {
+  font-size: 12px;
+  font-family: "DM Sans";
+  font-style: normal;
+  resize: none;
+}
+
+.btn__send {
+  width: 90px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .contact_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+  .stand, .stand_type, .stand_subtitle, .stand_description, .stand_hour, .stand_contact, .stand_title, .stand_typegren, .modal__title, .modal__subtitle {
+    font-size: 12px;
+  }
+  .stand_type, .stand_typegren {
+    width: 80px;
+    height: 16px;
+    left: 52px;
+    text-align: center;
+    border-radius: 4px;
+  }
+  .contact_item {
+    width: 280px;
+    height: 412px;
+  }
+  .line-grey {
+    width: 216px;
+  }
+  .contact_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 90px;
+  }
+  .stand_subtitle {
+    margin-top: 20px;
+  }
+  .stand_description {
+    padding-bottom: 24px;
+  }
+  .stand_calendar {
+    margin: 24px 0px;
+  }
+  .stand_typegren {
+    width: 130px;
+    height: 16px;
+  }
+  .btn_contact, .btn-red, .btn-white {
+    width: 160px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact_item {
+    width: 224px;
+    padding: 30px;
+  }
+  .stand, .stand_type, .stand_subtitle, .stand_description, .stand_hour, .stand_contact, .stand_title, .stand_typegren, .modal__title, .modal__subtitle {
+    font-size: 14px;
+  }
+  .line-grey {
+    width: 160px;
+    left: 48px;
+    top: 3239px;
+  }
+  .btn_contact, .btn-red, .btn-white {
+    width: 190px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1280px) {
+  .contacts {
+    width: 100%;
+  }
+}
 * {
   font-family: "DM Sans", sans-serif;
   font-family: "Titan One", cursive;
