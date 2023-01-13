@@ -17,6 +17,7 @@
     color: getColor("titles");
     fill: getColor("titles");
     border: 0;
+    cursor: pointer;
 
     &:hover{
         background-color: getColor("greyhover");
@@ -43,8 +44,6 @@
     width: 26px;
     height: 26px;
     border-radius: 100px;
-    background-color: getColor("white");
-
 }
 
 .icon-Flecha_Roja {

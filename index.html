@@ -162,11 +162,18 @@
 
     <section class="gallery">
         <!-- Esta sección leer lo que dice la guía acerca del degradado de fondo y Massonry Layput Galery -->
-        <img src="" alt="gallería de fotos">
+        <img class="gallery_img" src="/assets/img/desktop/home_group.png" alt="gallería de fotos">
     </section>
 
     <!-- Esta sección esta pendiente completar el maquetado, debo consultar al mentor -->
-    <section class="reviews">
+    <section class="slider">
+        <div class="reviews" id="reviews">
+            <button class="slider_btn-left" id="sliderLeft"><svg class="icon icon-Flecha_Roja" width="52">
+                <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+            </svg></button>
+            <button class="slider_btn-right" id="sliderRight"><svg class="icon icon-Flecha_Roja" width="52">
+                <use href="/assets/img/icons.svg#icon-Flecha_Roja"></use>
+            </svg></button>
         <ul class="reviews_grid">
             <li class="reviews_item" id="review1">
                 <article class="client">
@@ -177,7 +184,6 @@
                         </svg>
                         <span class="info client_message">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</span>
                     </div>
-                    <span class="title client_points">. . .</span>
                     <p class="client_name">Emily, Los Angeles</p>
                 </article>
             </li>
@@ -190,7 +196,6 @@
                         </svg>
                         <span class="info client_message">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</span>
                     </div>
-                    <span class="title client_points">. . .</span>
                     <p class="client_name">Panchita, Los Angeles</p>
                 </article>
             </li>
@@ -203,22 +208,22 @@
                         </svg>
                         <span class="info client_message">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</span>
                     </div>
-                    <span class="title client_points">. . .</span>
                     <p class="client_name">Rodolfa, Los Angeles</p>
                 </article>
             </li>
         </ul>
-        <div class="reviews_control">
-            <a href=""><svg class="icon icon-control" width="26">
+        </div>
+        <!-- <div class="reviews_control">
+            <a href="#review1"><svg class="icon icon-control" width="26">
                 <use href="/assets/img/icons.svg#icon-slider-home"></use>
             </svg></a>
-            <a href=""><svg class="icon icon-control" width="26">
+            <a href="#review2"><svg class="icon icon-control" width="26">
                 <use href="/assets/img/icons.svg#icon-slider-point"></use>
             </svg></a>
-            <a href=""><svg class="icon icon-control" width="26">
+            <a href="#review3"><svg class="icon icon-control" width="26">
                 <use href="/assets/img/icons.svg#icon-slider-point"></use>
             </svg></a>
-        </div>
+        </div> -->
     </section>
 
     <section class="contacts" id="section_contact">
@@ -329,7 +334,8 @@
         <span class="line-grey"></span>
         <div class="footer_copyright">© 2022 - IceCream. All Rights Reserved.</div>
     </footer>
-
+    <!-- Javascript files -->
+    <script src="./js/slider.js"></script>
 </body>
 
 </html>
